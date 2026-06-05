@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# nnUNet data / results (do not commit raw data or model weights)
+nnUNet_raw_data_base/
+nnUNet_preprocessed/
+RESULTS_FOLDER/
+*.model
+*.model.pkl
+*.npz
+*.nii.gz
+*.nii
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
