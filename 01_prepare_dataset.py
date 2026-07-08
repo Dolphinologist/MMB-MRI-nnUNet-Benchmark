@@ -2,7 +2,7 @@
 nnUNet v1 Dataset Preparation Script -- Mouse Brain Segmentation
 =================================================================
 Configuration restored from debug.json:
-  - 52 classes (51 brain regions + background 0)
+  - 51 label values (50 brain regions + background 0)
   - 5-modality channel order: QSMs(0) / T1(1) / T2(2) / T2s(3) / iMag(4)
   - Single-modality Tasks each use the corresponding 1 channel
 
@@ -25,7 +25,7 @@ BASE_DIR = "/path/to/data"
 RAW_DATA_BASE = os.path.join(BASE_DIR, "nnUNet_raw_data_base", "nnUNet_raw_data")
 # ─────────────────────────────────────────────────────────────────────────────
 
-# 51 mouse brain region labels (index 1-51)
+# 50 mouse brain region labels (index 1-50), plus background 0
 LABELS = {
     "0": "background",
     "1": "region_01", "2": "region_02", "3": "region_03", "4": "region_04",
@@ -40,7 +40,7 @@ LABELS = {
     "37": "region_37", "38": "region_38", "39": "region_39", "40": "region_40",
     "41": "region_41", "42": "region_42", "43": "region_43", "44": "region_44",
     "45": "region_45", "46": "region_46", "47": "region_47", "48": "region_48",
-    "49": "region_49", "50": "region_50", "51": "region_51",
+    "49": "region_49", "50": "region_50",
 }
 
 # ── Task definitions ──────────────────────────────────────────────────────────

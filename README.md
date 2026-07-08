@@ -6,7 +6,7 @@ This repository contains the training code for **multi-modal mouse brain atlas s
 
 ## Overview
 
-We trained nnUNet models to segment **51 brain regions** from mouse MRI across multiple modalities and configurations:
+We trained nnUNet models to segment **50 brain regions plus background** from mouse MRI across multiple modalities and configurations:
 
 | Task | Modality | Network | Notes |
 |------|----------|---------|-------|
