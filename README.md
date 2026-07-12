@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Zhang Lab · Shanghai Jiao Tong University School of Medical Technology</strong>
+  <strong>Zhang Lab · Shanghai Jiao Tong University, School of Medical Technology</strong>
 </p>
 
 This repository contains the training code for **multi-modal mouse brain atlas segmentation** using [nnUNet v1](https://github.com/MIC-DKFZ/nnUNet).
